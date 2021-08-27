@@ -11,4 +11,4 @@
 export PATH ${PATH}
 /etc/s6/init/init-stage1 $@
 
-cp -r /ur-externalcontrol /ursim/programs/ur-externalcontrol
+mv - /ur-externalcontrol/* /ursim/programs
