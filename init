@@ -7,7 +7,7 @@
 ## - https://github.com/just-containers/s6-overlay/issues/108
 ##
 
-pwd
+pwd --help
 
 /bin/importas -D /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin PATH PATH
 export PATH ${PATH}
