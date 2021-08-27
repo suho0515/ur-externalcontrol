@@ -11,4 +11,4 @@
 export PATH ${PATH}
 /etc/s6/init/init-stage1 $@
 
-/bin/sh entrypoint.sh
+/bin/bash entrypoint.sh
