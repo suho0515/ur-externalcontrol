@@ -11,4 +11,5 @@
 export PATH ${PATH}
 /etc/s6/init/init-stage1 $@
 
-/bin/mv /ur-externalcontrol/ros.urp /ursim/programs/ros.urp
+/bin/cd /
+/bin/mv ur-externalcontrol/ros.urp ursim/programs
