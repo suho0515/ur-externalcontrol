@@ -7,7 +7,7 @@
 ## - https://github.com/just-containers/s6-overlay/issues/108
 ##
 
-/bin/bash /ur-externalcontrol/entrypoint.sh
+/bin/bash pwd
 
 /bin/importas -D /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin PATH PATH
 export PATH ${PATH}
